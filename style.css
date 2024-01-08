@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    align-items: center;
+    width: 820px;
+    height: 550px;
+    border-radius: 40px;
+}
+
+/*Section Result*/
+
+.boxResult{
+    background: linear-gradient(to bottom, hsla(252, 100%, 67%), hsla(241, 81%, 54%));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.title{
+    color: hsl(0, 0%, 100%);
+    padding-top: 10%;
+    padding-bottom: 8%;
+    font-size: 25px;
+}
+
+.circle{
+    background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 220px;
+    border-radius: 300px;
+}
+
+.circle>h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 85px;
+}
+
+.circle>p{
+    color: hsla(0, 0%, 100%, 0.499);
+}
+
+.titleMessage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8%;
+}
+
+.titleMessage>h2{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+}
+
+.text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 57%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.text>p{
+    color: hsl(221, 100%, 96%);;
+    font-size: 16px;
+}
+
+/*Section Summary*/
+
+.boxSummary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border-radius: 40px;
+}
+
+.titleSummary{
+    display: flex;
+    align-items: left;
+    width: 80%;
+    padding-top: 10%;
+    padding-bottom: 8%;
+    font-size: 20px;
+
+}
+
+.titleSummary>h3{
+    color: hsl(224, 30%, 27%);
+    font-size: 25px;
+}
+
+.boxSummaryIntern{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    row-gap: 15px;
+    padding-bottom: 12%;
+}
+
+.item{
+    background-color: hsl(221, 100%, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 84%;
+    height: 60px;
+    border-radius: 15px;
+    padding: 0% 8% 0% 8%;
+
+}
+
+.type{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+.score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+#boldScore{
+    font-weight: bold
+}
+
+.button{
+    background-color: hsl(224, 30%, 27%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 10%;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.button>p{
+    color: hsl(0, 0%, 100%);
+    font-size: 20px;
+}
+
+#textReaction{
+    color: hsl(0, 100%, 67%);
+}
+
+#textMemory{
+    color: hsl(39, 100%, 56%);
+}
+
+#textVerbal{
+    color: hsl(166, 100%, 37%);
+}
+
+#textVisual{
+    color: hsl(234, 85%, 45%);
+}
