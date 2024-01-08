@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: grey;
+    background-color: hsl(0, 0%, 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,6 +17,7 @@ body{
 
 .container{
     background-color: hsl(0, 0%, 100%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.06);
     display: flex;
     align-items: center;
     width: 820px;
@@ -186,4 +187,20 @@ body{
 
 #textVisual{
     color: hsl(234, 85%, 45%);
+}
+
+#textReactionItem{
+    background-color: hsla(0, 100%, 67%, 0.073);
+}
+
+#textMemoryItem{
+    background-color: hsla(39, 100%, 56%, 0.068);
+}
+
+#textVerbalItem{
+    background-color: hsla(166, 100%, 37%, 0.075);
+}
+
+#textVisualItem{
+    background-color: hsla(234, 85%, 45%, 0.082);
 }
